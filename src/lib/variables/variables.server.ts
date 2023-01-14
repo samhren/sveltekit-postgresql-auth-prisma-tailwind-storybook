@@ -12,6 +12,12 @@ const schema = z.object({
 	}),
 	GITHUB_SECRET: z.string().regex(new RegExp('^\\S*$'), {
 		message: 'No spaces allowed'
+	}),
+	AUTH_SECRET: z.string().regex(new RegExp('^\\S*$'), {
+		message: 'No spaces allowed'
+	}),
+	DATABASE_URL: z.string().regex(new RegExp('^\\S*$'), {
+		message: 'No spaces allowed'
 	})
 });
 
