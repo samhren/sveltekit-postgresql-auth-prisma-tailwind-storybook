@@ -1,5 +1,5 @@
 {
-	"name": "sveltekit-postgresql-auth-prisma",
+	"name": "sveltekit-postgresql-auth-prisma-tailwind-storybook",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
